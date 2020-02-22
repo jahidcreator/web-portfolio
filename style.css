@@ -1,8 +1,12 @@
 body{
     font-family: 'Signika', ;
+    margin:0;
 }
 h1{
     font-size: 50px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: orange;
@@ -15,4 +19,49 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+   background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 60px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 0, 64), red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experiance{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 6px;
+    background-color: white;
+}
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient( rgb(255, 0, 64), red);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue,cyan) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
 }
